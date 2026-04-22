@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/ajsar/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python3 scripts/search.py \"portfolio travel content creator minimalist modern dark\" --design-system -p \"Hassan Sarjana Portfolio\")",
+      "Bash(python scripts/search.py \"portfolio travel content creator minimalist modern dark mode\" --design-system -p \"Hassan Sarjana Portfolio\")",
+      "Bash(python -m http.server 8000)",
+      "Bash(curl -s http://localhost:8000)",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(pkill -f \"python -m http.server\")"
+    ]
+  }
+}
