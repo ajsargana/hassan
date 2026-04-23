@@ -1,32 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.online/schemas/sitemap-image/1.1">
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
         <loc>https://hassansargana.online</loc>
-        <lastmod>2026-04-22</lastmod>
+        <lastmod>2026-04-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
-            <image:loc>https://img.youtube.online/vi/oHG8LnRKWfQ/maxresdefault.jpg</image:loc>
-            <image:title>Hassan Sarjana - Biker and Travel Content Creator</image:title>
+            <image:loc>https://img.youtube.com/vi/oHG8LnRKWfQ/maxresdefault.jpg</image:loc>
+            <image:title>Hassan Sargana - Biker and Travel Content Creator</image:title>
         </image:image>
+        <video:video>
+            <video:thumbnail_loc>https://img.youtube.com/vi/oHG8LnRKWfQ/maxresdefault.jpg</video:thumbnail_loc>
+            <video:title>Pakistani Adventure - Hassan Sargana</video:title>
+            <video:description>Exploring the hidden gems of Pakistan on my motorcycle</video:description>
+            <video:content_loc>https://youtube.com/watch?v=oHG8LnRKWfQ</video:content_loc>
+            <video:player_loc>https://www.youtube.com/embed/oHG8LnRKWfQ</video:player_loc>
+            <video:duration>900</video:duration>
+            <video:publication_date>2025-11-23</video:publication_date>
+        </video:video>
     </url>
     <url>
         <loc>https://hassansargana.online#about</loc>
-        <lastmod>2026-04-22</lastmod>
+        <lastmod>2026-04-23</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://hassansargana.online#videos</loc>
-        <lastmod>2026-04-22</lastmod>
+        <lastmod>2026-04-23</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://hassansargana.online#contact</loc>
-        <lastmod>2026-04-22</lastmod>
+        <lastmod>2026-04-23</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.95</priority>
     </url>
 </urlset>

@@ -1,13 +1,40 @@
+# Hassan Sargana - Biker Vlogger SEO Configuration
 User-agent: *
 Allow: /
+Allow: /#about
+Allow: /#videos
+Allow: /#contact
 Disallow: /private/
+Disallow: /admin/
+Disallow: *.pdf
+Disallow: /temp/
 
-# Specific crawl delays
+# Google Bot - Higher crawl rate for content discovery
 User-agent: Googlebot
-Crawl-delay: 1
+Crawl-delay: 0.5
+Allow: /
 
+# Bing Bot
 User-agent: Bingbot
 Crawl-delay: 1
+Allow: /
 
-# Sitemaps
-Sitemap: https://hassansargana.com/sitemap.xml
+# Pinterest Bot - Allow image discovery
+User-agent: Pinterestbot
+Crawl-delay: 1
+Allow: /
+
+# YouTube Bot - Allow video discovery
+User-agent: YouTubeBot
+Allow: /
+
+# High crawl rate for faster indexing
+User-agent: AdsBot-Google
+Crawl-delay: 0
+
+# Site configuration
+Request-rate: 30/1m
+
+# Sitemaps for search engine discovery
+Sitemap: https://hassansargana.online/sitemap.xml
+Sitemap: https://hassansargana.online/sitemap-video.xml
