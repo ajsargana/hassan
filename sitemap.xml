@@ -21,22 +21,4 @@
             <video:publication_date>2025-11-23</video:publication_date>
         </video:video>
     </url>
-    <url>
-        <loc>https://hassansargana.online#about</loc>
-        <lastmod>2026-04-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://hassansargana.online#videos</loc>
-        <lastmod>2026-04-23</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://hassansargana.online#contact</loc>
-        <lastmod>2026-04-23</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.95</priority>
-    </url>
 </urlset>

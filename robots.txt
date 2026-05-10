@@ -6,7 +6,7 @@ Allow: /#videos
 Allow: /#contact
 Disallow: /private/
 Disallow: /admin/
-Disallow: *.pdf
+Disallow: /*.pdf
 Disallow: /temp/
 
 # Google Bot - Higher crawl rate for content discovery
@@ -37,4 +37,3 @@ Request-rate: 30/1m
 
 # Sitemaps for search engine discovery
 Sitemap: https://hassansargana.online/sitemap.xml
-Sitemap: https://hassansargana.online/sitemap-video.xml
